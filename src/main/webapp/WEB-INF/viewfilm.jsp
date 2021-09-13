@@ -44,7 +44,8 @@
 		<br>
 		<hr>
 		<br><br><hr>
-<form action="deleteFilm.do?filmId=${film.id}">
+	<form action="deleteFilm.do" method= "GET">
+	<input type="hidden" name= "filmId" value= "${film.id}">
     <input type="submit" style="background-color:red;color:white;" value="Delete this film!!">
 </form>
 <br>
