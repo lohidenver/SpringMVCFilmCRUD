@@ -28,8 +28,8 @@
 	</div>
 	</c:if>
 	<c:if test="${empty films }">
-	No films match that keyword.  Please try again.
+	No films match.  Please try again.
 	</c:if>
-	<br><a href="home.do">Home</a>
+	<br><a href="home.do"><button>Home</button></a>
 </body>
 </html>

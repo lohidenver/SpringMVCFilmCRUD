@@ -13,9 +13,11 @@
 
 <body>
 <h1>MVC Film Site</h1>
-<a href="GetFilmId.html">Get Film By Id</a><br/>
-<a href="AddFilm.html">Add Film</a><br/>
-<a href="filmkeyword.html">Search Film By Keyword</a><br>
+<a href="GetFilmId.html"><button>Get Film By Id</button></a><br/>
+<br>
+<a href="filmkeyword.html"><button>Search Film By Keyword</button></a><br>
+<br>
+<a href="AddFilm.html"><button>Add Film</button></a><br/>
 
 
 

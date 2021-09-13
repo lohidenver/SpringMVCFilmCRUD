@@ -13,8 +13,8 @@
 <h1>Film Update</h1>
 <c:if test="${film.id > 1}">${film.title } updated successfully.
 </c:if>
-<c:if test="${film.id < 1}">I'm sorry, the film didn't update correctly.  Please try again
+<c:if test="${film.id < 1}">Error...  Please try again
 </c:if>
-<br><a href="home.do">Home</a>
+<br><a href="home.do"><button>Home</button></a>
 </body>
 </html>

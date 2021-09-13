@@ -23,7 +23,7 @@
 	</c:choose>
 	<br>
 	<br>
-	<br><a href="home.do">Home</a>
+	<br><a href="home.do"><button>Home</button></a>
 	
 	
 </body>

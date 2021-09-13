@@ -36,16 +36,24 @@
 			</c:forEach>
 		</table>
 		<br>
-		<a href="home.do">Home</a>
+		<a href="home.do"><button>Home</button></a>
 		<br>
-		<a href="deleteFilm.do?filmId=${film.id}">Delete this film</a>
+		
+		<a href="filmGettingUpdate.do?filmId=${film.id}"><button>Update this film
+			information</button></a>
 		<br>
-		<a href="filmGettingUpdate.do?filmId=${film.id}">Update this film
-			information</a>
+		<hr>
+		<br><br><hr>
+<form action="deleteFilm.do?filmId=${film.id}">
+    <input type="submit" style="background-color:red;color:white;" value="Delete this film!!">
+</form>
+<br>
+
+		
 	</c:if>
 	<c:if test="${empty film }">Sorry, but that film ID doesn't exist.  Please Try Again!
 	<br>
-		<a href="home.do">Home</a>
+		<a href="home.do"><button>Home</button></a>
 	</c:if>
 	
 	
