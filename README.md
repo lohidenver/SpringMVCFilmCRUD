@@ -10,11 +10,6 @@ This project was an extention of the Film Query Application we made last week.
 
 # Lessons Learned
 
-
-Dave - #SpringMVCFilmCRUD Dave and Brandon
-# Description This is a full stack application that runs a simple film query where you are able to search through a database of films. The application has functionality to modify films, add new films, and delete films you have added to the database.
-This project was an extention of the Film Query Application we made last week.
-# Lessons Learned
 Dave - 
 
 * One of our biggest issues was mapping the MVC.  I feel like one of the easier solutions to this would be to create a UML style drawing or use a whiteboard.
