@@ -8,9 +8,15 @@
 <meta charset="UTF-8">
 <title>MVC Film Site</title>
 </head>
+
+
+
 <body>
 <h1>MVC Film Site</h1>
 <a href="GetFilmId.html">Get Film By Id</a><br/>
+<a href="AddFilm.html">Add Film</a><br/>
+<a href="filmkeyword.html">Search Film By Keyword</a><br>
+
 
 
 

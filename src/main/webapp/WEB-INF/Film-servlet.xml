@@ -14,7 +14,7 @@
 
 
 	<bean id="dao"
-		class="com.skilldistillery.film.dao.FilmDaoJDBCImpl" />
+		class="com.skilldistillery.film.dao.FilmDaoJdbcImpl" />
 
 	<bean id="film" class="com.skilldistillery.film.entities.Film" />
 
